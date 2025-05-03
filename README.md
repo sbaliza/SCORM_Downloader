@@ -39,7 +39,7 @@ pip install requests beautifulsoup4 tqdm
 ## 🚀 Uso
 
 ```bash
-python3 scorm_download.py --manifest URL_DO_MANIFESTO [--output DIRETORIO_DESTINO]
+python3 scorm_downloader.py --manifest URL_DO_MANIFESTO [--output DIRETORIO_DESTINO]
 ```
 
 ### Parâmetros
@@ -52,7 +52,7 @@ python3 scorm_download.py --manifest URL_DO_MANIFESTO [--output DIRETORIO_DESTIN
 ## 💡 Exemplo
 
 ```bash
-python3 scorm_download.py \
+python3 scorm_downloader.py \
   --manifest https://www.portal.com/courses/6541_SHORT/scorms/Chap01_scorm01/imsmanifest.xml \
   --output ./downloads
 ```
