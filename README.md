@@ -31,7 +31,7 @@ Este script utiliza o manifesto para localizar e baixar todos os arquivos refere
 ### Instalação dos pacotes
 
 ```bash
-pip install requests beautifulsoup4 tqdm
+pip install requests beautifulsoup4 tqdm lxml
 ```
 
 ---
